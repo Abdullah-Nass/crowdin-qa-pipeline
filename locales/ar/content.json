@@ -1,0 +1,10 @@
+{
+  "welcome": "مرحبا، {name}!",
+  "items_in_cart": "لديك عناصر {count} في سلة التسوق الخاصة بك.",
+  "logout": "تسجيل الخروج",
+  "save_changes": "حفظ التغييرات",
+  "error_required": "هذا الحقل مطلوب.",
+  "error_invalid_email": "الرجاء إدخال عنوان بريد إلكتروني صحيح.",
+  "upload_success": "تم رفع الملف بنجاح.",
+  "delete_confirm": "هل أنت متأكد من أنك تريد حذف {item}؟"
+}

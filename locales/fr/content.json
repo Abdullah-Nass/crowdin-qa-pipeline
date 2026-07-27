@@ -1,0 +1,10 @@
+{
+  "welcome": "Bienvenue, {name}!",
+  "items_in_cart": "Vous avez des articles {count} dans votre panier.",
+  "logout": "Déconnexion",
+  "save_changes": "Enregistrer les modifications",
+  "error_required": "Ce champ est obligatoire.",
+  "error_invalid_email": "Veuillez entrer une adresse e-mail valide.",
+  "upload_success": "Fichier téléchargé avec succès.",
+  "delete_confirm": "Êtes-vous sûr de vouloir supprimer {item}?"
+}

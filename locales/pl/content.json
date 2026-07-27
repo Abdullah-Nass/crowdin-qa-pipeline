@@ -1,0 +1,10 @@
+{
+  "welcome": "Witaj, {name}!",
+  "items_in_cart": "Masz produkty {count} w koszyku.",
+  "logout": "Wyloguj się",
+  "save_changes": "Zapisz zmiany",
+  "error_required": "To pole jest wymagane.",
+  "error_invalid_email": "Wprowadź poprawny adres e-mail.",
+  "upload_success": "Plik przesłany pomyślnie.",
+  "delete_confirm": "Czy na pewno chcesz usunąć {item}?"
+}
