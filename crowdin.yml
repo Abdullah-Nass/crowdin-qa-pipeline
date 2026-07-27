@@ -1,0 +1,4 @@
+create_pull_request: 1
+files:
+  - source: /source
+    translation: /locales/%two_letters_code%/%original_file_name%

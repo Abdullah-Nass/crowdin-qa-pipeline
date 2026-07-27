@@ -1,0 +1,27 @@
+name: Localization QA
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "locales/**"
+jobs:
+  qa:
+    name: Run Localization QA Checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install polib lxml
+
+      - name: Run QA checks
+        run: python scripts/run_qa.py locales/
